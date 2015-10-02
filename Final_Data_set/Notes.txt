@@ -1,0 +1,23 @@
+Files to Use:
+FinalPeakTransportNodesEdges.csv and FinalNonPeakTransportNodesEdges.csv are the aggregated data and will be used for modelling.
+
+BusMRTLRTNodes.csv contain the nodes information and its longitude and latitude.
+
+One file for peak period calculation, and the other for non-peak period.
+
+FROM: Nodes From
+TO: Nodes To
+TIME_MINS:Time taken in mins to traverse that edge
+COMPLETED: Whether the edge has been constructed. More for analysing if the link has been completed or not. 
+FROM_GEOSPATIAL_KEY: Key to map the longitude and latitude for the FROM node
+TO_GEOSPATIAL_KEY: Key to map the longitude and latitude for the TO node
+
+For Additional Info:
+DetailedNonPeakTransportNodesEdges.csv and DetailedPeakTransportNodesEdges/csv contain additional information about each edge.
+LINE: Link Type. Walk, Bus Change, MRT etc
+
+
+
+
+
+
